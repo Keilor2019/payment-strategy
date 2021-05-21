@@ -10,7 +10,7 @@ public class Paypal  implements PaymentStrategy{
   @Override
   public void doPayment() {
     System.out.println("Paypal Payment");
-      //implement algorithm A here 
+      //implement paypal api here 
   }
   @Override 
   public StrategyName getStrategyName() {

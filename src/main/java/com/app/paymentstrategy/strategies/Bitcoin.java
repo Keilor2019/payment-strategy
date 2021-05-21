@@ -10,7 +10,7 @@ public class Bitcoin  implements PaymentStrategy{
   @Override
   public void doPayment() {
     System.out.println("Bitcoint Payment");
-      //implement algorithm A here 
+      //implement bitcoin api here 
   }
   @Override 
   public StrategyName getStrategyName() {

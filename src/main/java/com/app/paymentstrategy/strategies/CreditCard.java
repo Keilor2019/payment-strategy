@@ -10,7 +10,7 @@ public class CreditCard  implements PaymentStrategy{
   @Override
   public void doPayment() {
     System.out.println("CreditCard Payment");
-      //implement algorithm A here 
+      //implement credit card api here 
   }
   
   @Override 
